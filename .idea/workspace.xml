@@ -2,329 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1cab2a94-b311-4d3e-93bb-a2613761f650" name="Default Changelist" comment="finish the project">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/ssm-auth-project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/ssm-auth.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-auth-project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-base/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-base/src/main/java/design/suifeng/base/controller/SysMacroController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-base/src/main/java/design/suifeng/base/dao/SysMacroMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-base/src/main/java/design/suifeng/base/entity/SysMacroEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-base/src/main/java/design/suifeng/base/manager/SysMacroManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-base/src/main/java/design/suifeng/base/manager/impl/SysMacroManagerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-base/src/main/java/design/suifeng/base/service/SysMacroService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-base/src/main/java/design/suifeng/base/service/impl/SysMacroServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-base/src/main/resources/design/suifeng/base/dao/SysMacroMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-base/ssm-base.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-common/src/main/java/design/suifeng/common/annotation/SysLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-common/src/main/java/design/suifeng/common/aspect/SysLogAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-common/src/main/java/design/suifeng/common/constant/MsgConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-common/src/main/java/design/suifeng/common/constant/SystemConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-common/src/main/java/design/suifeng/common/controller/AbstractController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-common/src/main/java/design/suifeng/common/controller/SysLogController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-common/src/main/java/design/suifeng/common/controller/SysPageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-common/src/main/java/design/suifeng/common/dao/BaseMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-common/src/main/java/design/suifeng/common/dao/SysLogMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-common/src/main/java/design/suifeng/common/entity/Page.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-common/src/main/java/design/suifeng/common/entity/Query.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-common/src/main/java/design/suifeng/common/entity/R.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-common/src/main/java/design/suifeng/common/entity/SysLogEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-common/src/main/java/design/suifeng/common/entity/SysUserEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-common/src/main/java/design/suifeng/common/exception/RRException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-common/src/main/java/design/suifeng/common/exception/RRExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-common/src/main/java/design/suifeng/common/manager/SysLogManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-common/src/main/java/design/suifeng/common/manager/impl/SysLogManagerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-common/src/main/java/design/suifeng/common/service/SysLogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-common/src/main/java/design/suifeng/common/service/impl/SysLogServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-common/src/main/java/design/suifeng/common/utils/CommonUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-common/src/main/java/design/suifeng/common/utils/DateUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-common/src/main/java/design/suifeng/common/utils/HttpContextUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-common/src/main/java/design/suifeng/common/utils/IPUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-common/src/main/java/design/suifeng/common/utils/JSONUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-common/src/main/java/design/suifeng/common/utils/MD5Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-common/src/main/java/design/suifeng/common/utils/ShiroUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-common/src/main/java/design/suifeng/common/utils/WebUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-common/src/main/java/design/suifeng/common/xss/HTMLFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-common/src/main/java/design/suifeng/common/xss/SQLFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-common/src/main/java/design/suifeng/common/xss/XssFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-common/src/main/java/design/suifeng/common/xss/XssHttpServletRequestWrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-common/src/main/resources/design/suifeng/common/dao/SysLogMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-common/ssm-common.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-orm/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-orm/src/main/java/design/suifeng/orm/dialect/Dialect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-orm/src/main/java/design/suifeng/orm/dialect/DialectFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-orm/src/main/java/design/suifeng/orm/dialect/MSDialect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-orm/src/main/java/design/suifeng/orm/dialect/MSPageHepler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-orm/src/main/java/design/suifeng/orm/dialect/MySql5Dialect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-orm/src/main/java/design/suifeng/orm/dialect/MySql5PageHepler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-orm/src/main/java/design/suifeng/orm/dialect/OracleDialect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-orm/src/main/java/design/suifeng/orm/dialect/PostgreDialect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-orm/src/main/java/design/suifeng/orm/dialect/PostgrePageHepler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-orm/src/main/java/design/suifeng/orm/mybatis/PackagesSqlSessionFactoryBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-orm/src/main/java/design/suifeng/orm/plugins/PaginationResultSetHandlerInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-orm/src/main/java/design/suifeng/orm/plugins/PaginationStatementHandlerInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-orm/src/main/resources/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-orm/src/main/resources/mybatis.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-orm/src/main/resources/spring-jdbc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-orm/ssm-orm.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-shiro/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-shiro/src/main/java/design/suifeng/shiro/controller/SysLoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-shiro/src/main/java/design/suifeng/shiro/controller/SysMenuController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-shiro/src/main/java/design/suifeng/shiro/controller/SysRoleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-shiro/src/main/java/design/suifeng/shiro/controller/SysUserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-shiro/src/main/java/design/suifeng/shiro/dao/SysMenuMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-shiro/src/main/java/design/suifeng/shiro/dao/SysRoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-shiro/src/main/java/design/suifeng/shiro/dao/SysRoleMenuMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-shiro/src/main/java/design/suifeng/shiro/dao/SysUserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-shiro/src/main/java/design/suifeng/shiro/dao/SysUserRoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-shiro/src/main/java/design/suifeng/shiro/entity/SysMenuEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-shiro/src/main/java/design/suifeng/shiro/entity/SysRoleEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-shiro/src/main/java/design/suifeng/shiro/entity/SysRoleMenuEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-shiro/src/main/java/design/suifeng/shiro/entity/SysUserRoleEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-shiro/src/main/java/design/suifeng/shiro/manager/SysMenuManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-shiro/src/main/java/design/suifeng/shiro/manager/SysRoleManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-shiro/src/main/java/design/suifeng/shiro/manager/SysUserManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-shiro/src/main/java/design/suifeng/shiro/manager/impl/SysMenuManagerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-shiro/src/main/java/design/suifeng/shiro/manager/impl/SysRoleManagerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-shiro/src/main/java/design/suifeng/shiro/manager/impl/SysUserManagerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-shiro/src/main/java/design/suifeng/shiro/security/AjaxAuthenticationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-shiro/src/main/java/design/suifeng/shiro/security/UserRealm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-shiro/src/main/java/design/suifeng/shiro/security/VelocityShiro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-shiro/src/main/java/design/suifeng/shiro/service/SysMenuService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-shiro/src/main/java/design/suifeng/shiro/service/SysRoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-shiro/src/main/java/design/suifeng/shiro/service/SysUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-shiro/src/main/java/design/suifeng/shiro/service/impl/SysMenuServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-shiro/src/main/java/design/suifeng/shiro/service/impl/SysRoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-shiro/src/main/java/design/suifeng/shiro/service/impl/SysUserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-shiro/src/main/resources/design/suifeng/shiro/dao/SysMenuMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-shiro/src/main/resources/design/suifeng/shiro/dao/SysRoleMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-shiro/src/main/resources/design/suifeng/shiro/dao/SysRoleMenuMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-shiro/src/main/resources/design/suifeng/shiro/dao/SysUserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-shiro/src/main/resources/design/suifeng/shiro/dao/SysUserRoleMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-shiro/src/main/resources/ssm-shiro.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-shiro/ssm-shiro.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/resources/spring-mvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/tools.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/view/base/log/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/view/base/macro/add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/view/base/macro/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/view/base/macro/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/view/base/macro/tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/view/base/menu/add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/view/base/menu/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/view/base/menu/icon.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/view/base/menu/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/view/base/menu/tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/view/base/role/add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/view/base/role/authorize.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/view/base/role/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/view/base/role/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/view/base/user/add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/view/base/user/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/view/base/user/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/view/base/user/reset.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/view/error/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/view/error/500.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/view/include/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/view/include/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/view/system/index/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/view/template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/css/common.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/css/style.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/fonts/glyphicons-halflings-regulard41d.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/fonts/weathericons-regular-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/fonts/weathericons-regular-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/fonts/weathericons-regular-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/fonts/weathericons-regular-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/fonts/weathericons-regular-webfontd41d.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/js/base/log/list.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/js/base/macro/add.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/js/base/macro/edit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/js/base/macro/list.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/js/base/menu/add.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/js/base/menu/edit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/js/base/menu/list.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/js/base/role/add.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/js/base/role/edit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/js/base/role/list.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/js/base/user/add.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/js/base/user/edit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/js/base/user/list.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/js/common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/js/form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/libs/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/libs/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/libs/jquery.slimscroll.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/libs/router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/libs/vue-validator.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/libs/vue.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/bootstrap-table.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/bootstrap-table.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/bootstrap-treegrid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-af-ZA.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-af-ZA.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-ar-SA.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-ar-SA.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-ca-ES.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-ca-ES.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-cs-CZ.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-cs-CZ.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-da-DK.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-da-DK.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-de-DE.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-de-DE.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-el-GR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-el-GR.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-en-US.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-en-US.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-es-AR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-es-AR.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-es-CL.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-es-CL.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-es-CR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-es-CR.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-es-ES.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-es-ES.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-es-MX.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-es-MX.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-es-NI.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-es-NI.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-es-SP.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-es-SP.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-et-EE.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-et-EE.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-fa-IR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-fa-IR.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-fr-BE.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-fr-BE.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-fr-FR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-fr-FR.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-he-IL.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-he-IL.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-hr-HR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-hr-HR.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-hu-HU.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-hu-HU.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-id-ID.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-id-ID.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-it-IT.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-it-IT.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-ja-JP.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-ja-JP.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-ka-GE.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-ka-GE.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-ko-KR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-ko-KR.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-ms-MY.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-ms-MY.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-nb-NO.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-nb-NO.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-nl-NL.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-nl-NL.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-pl-PL.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-pl-PL.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-pt-BR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-pt-BR.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-pt-PT.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-pt-PT.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-ro-RO.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-ro-RO.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-ru-RU.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-ru-RU.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-sk-SK.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-sk-SK.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-sv-SE.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-sv-SE.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-th-TH.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-th-TH.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-tr-TR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-tr-TR.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-uk-UA.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-uk-UA.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-ur-PK.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-ur-PK.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-uz-Latn-UZ.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-uz-Latn-UZ.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-vi-VN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-vi-VN.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-zh-CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-zh-CN.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-zh-TW.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/bootstrap-table/locale/bootstrap-table-zh-TW.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/jqgrid/grid.locale-cn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/jqgrid/jquery.jqGrid.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/jqgrid/ui.jqgrid-bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/layer/layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/layer/mobile/layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/layer/mobile/need/layer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/layer/skin/default/icon-ext.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/layer/skin/default/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/layer/skin/default/layer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/layer/skin/default/loading-0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/layer/skin/default/loading-1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/layer/skin/default/loading-2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/treegrid/jquery.treegrid.bootstrap3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/treegrid/jquery.treegrid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/treegrid/jquery.treegrid.extension.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/treegrid/jquery.treegrid.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/treegrid/tree.table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/validator/validator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/ztree/css/awesomeStyle/awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/ztree/css/awesomeStyle/awesome.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/ztree/css/awesomeStyle/fa.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/ztree/css/awesomeStyle/img/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/ztree/css/metroStyle/img/line_conn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/ztree/css/metroStyle/img/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/ztree/css/metroStyle/img/metro.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/ztree/css/metroStyle/img/metro.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/ztree/css/metroStyle/metroStyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/ztree/css/zTreeStyle/img/diy/1_close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/ztree/css/zTreeStyle/img/diy/1_open.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/ztree/css/zTreeStyle/img/diy/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/ztree/css/zTreeStyle/img/diy/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/ztree/css/zTreeStyle/img/diy/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/ztree/css/zTreeStyle/img/diy/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/ztree/css/zTreeStyle/img/diy/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/ztree/css/zTreeStyle/img/diy/7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/ztree/css/zTreeStyle/img/diy/8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/ztree/css/zTreeStyle/img/diy/9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/ztree/css/zTreeStyle/img/line_conn.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/ztree/css/zTreeStyle/img/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/ztree/css/zTreeStyle/img/zTreeStandard.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/ztree/css/zTreeStyle/img/zTreeStandard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/ztree/css/zTreeStyle/zTreeStyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/src/main/webapp/statics/plugins/ztree/jquery.ztree.all.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm-web/ssm-web.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -333,6 +12,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="CREATE_PULL_REQUEST_DEFAULT_BRANCH" value="master" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="dxmq" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="ssm-auth-project" />
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
@@ -424,6 +108,42 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="finish the project" />
     <option name="LAST_COMMIT_MESSAGE" value="finish the project" />
@@ -437,6 +157,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="361" y="91" key="#Project_Structure/0.0.1536.864@0.0.1536.864" timestamp="1578368183420" />
+    <state x="498" y="222" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578373087027">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="498" y="222" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864@0.0.1536.864" timestamp="1578373087027" />
     <state x="574" y="136" key="#com.intellij.ide.util.MemberChooser" timestamp="1578237156762">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -445,10 +169,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="380" y="348" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.864@0.0.1536.864" timestamp="1578208355334" />
-    <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1578370575765">
+    <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1578371768597">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="337" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1578370575765" />
+    <state x="337" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1578371768597" />
     <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1578367931146">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
